@@ -14,6 +14,12 @@ module.exports = {
           sp_grey: '#7A746E',
           sp_white: '#FFF7F0',
         },
+        fontSize: {
+          sp_bold: ['56px', '71px'],
+        },
+        width: {
+          sp_sub_width: '730px'
+        }
       },
     },
     plugins: [],
