@@ -9,10 +9,12 @@ import patternApps from "./assets/pattern-apps.svg";
 import patternIllustration from "./assets/pattern-illustrations.svg";
 import patternPhotography from "./assets/pattern-photography.svg";
 import patternMotion from "./assets/pattern-motion-graphics.svg";
+import amy from "./assets/image-amy.webp";
 
 import Header from "./components/Header";
 import Slogan from "./components/Slogan";
 import Card from "./components/Card";
+import CTA from "./components/CTA";
 
 function App() {
     return (
@@ -28,7 +30,7 @@ function App() {
                   With over ten years of experience in various design disciplines, I'm your one-stop shop for your design needs.
                 </Slogan>
 
-                <div className="grid grid-cols-3 gap-6">
+                <div className="grid grid-cols-3 gap-6 mb-136">
                   <div className="grid-block">
                     <Card color="#755CDE" text="Graphics Design" icon={patternGraphics} size="lg"/>
                   </div>
@@ -52,6 +54,10 @@ function App() {
                     </div>
                   </div>
                 </div>
+
+                <CTA image={amy} header="I’m Amy, and I’d love to work on your next project" button="Free Consultation">
+                  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!
+                </CTA>
             </div>
         </HelmetProvider>
     );

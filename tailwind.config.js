@@ -16,10 +16,16 @@ module.exports = {
         },
         fontSize: {
           sp_bold: ['56px', '71px'],
+          sp_cta: ['40px','50px']
         },
         width: {
-          sp_sub_width: '730px'
-        }
+          sp_sub_width: '730px',
+          sp_cta_width: '445px',
+          '540': '540px'
+        },
+        margin: {
+          '136': '136px'
+        },
       },
     },
     plugins: [],
