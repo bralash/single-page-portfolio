@@ -6,7 +6,7 @@ interface sloganProps {
 }
 function Slogan(props: sloganProps) {
   return (
-    <div className="text-center">
+    <div className="text-center mb-20">
         <h1 className="font-bold text-sp_bold text-sp_black mb-6">
             {props.header}
         </h1>

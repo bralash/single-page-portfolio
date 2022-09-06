@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap");
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #FFF7F0;
-  font-family: 'Plus Jakarta Sana', sans-serif;
+  background-color: #fff7f0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
 }
 
 * {
@@ -15,4 +19,62 @@ body {
   width: 1111px;
   margin: auto;
   padding-top: 34px;
+}
+
+.grid-block {
+  width: 354px;
+  height: 364px;
+  /* background-color: teal; */
+}
+
+.sub-grid {
+  height: 158px;
+}
+
+.sub-grid.higher {
+  height: 182px;
+}
+
+.Card {
+  border-radius: 8px;
+  position: relative;
+}
+
+.Card h3 {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+}
+
+.Card.lg {
+  width: 354px;
+  height: 364px;
+}
+
+.Card.sm {
+  width: 164px;
+  height: 182px;
+}
+
+.Card.md {
+  width: 354px;
+  height: 158px;
+}
+
+.Card .icon {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
+
+.Card.lg .icon {
+  width: 128px;
+}
+
+.Card.sm .icon {
+  width: 64px;
+}
+
+.sub-grid.higher .Card.md {
+  height: 182px;
 }
